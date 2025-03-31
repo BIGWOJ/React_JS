@@ -1,14 +1,11 @@
-import Button from './Button/Button.jsx';
+import UserGreeting from "./UserGreeting.jsx";
 
 function App() {
     return (
     <>
-        <Button></Button>
-
-
+        <UserGreeting isLoggedIn="asd" username="Ja"/>
     </>
     )
 }
-
 
 export default App;
