@@ -5,6 +5,7 @@ import Use_State from "./Use_State/Use_State.jsx";
 import Counter from "./Counter/Counter.jsx";
 import On_Change from "./On_Change/On_Change.jsx";
 import Color_picker from "./Color_picker/Color_picker.jsx";
+import Update_Object_State from "./Update_Object_State/Update_Object_State.jsx";
 
 export default function App() {
     // const fruits = [
@@ -36,7 +37,7 @@ export default function App() {
             {/* <Counter/> */}
             {/* <On_Change/> */}
             {/* <Color_picker/> */}
-
+            <Update_Object_State/>
 
         </>
     );
