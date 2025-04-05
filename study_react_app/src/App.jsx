@@ -6,6 +6,9 @@ import Counter from "./Counter/Counter.jsx";
 import On_Change from "./On_Change/On_Change.jsx";
 import Color_picker from "./Color_picker/Color_picker.jsx";
 import Update_Object_State from "./Update_Object_State/Update_Object_State.jsx";
+import Update_Array_State from "./Update_Array_State/Update_Array_State.jsx";
+import Update_List_Object from "./Update_List_Object/Update_List_Object.jsx";
+import To_Do_List from "./To_Do_List.jsx/To_Do_List.jsx";
 
 export default function App() {
     // const fruits = [
@@ -37,7 +40,10 @@ export default function App() {
             {/* <Counter/> */}
             {/* <On_Change/> */}
             {/* <Color_picker/> */}
-            <Update_Object_State/>
+            {/* <Update_Object_State/> */}
+            {/* <Update_Array_State/> */}
+            {/* <Update_List_Object/> */}
+            <To_Do_List/>
 
         </>
     );

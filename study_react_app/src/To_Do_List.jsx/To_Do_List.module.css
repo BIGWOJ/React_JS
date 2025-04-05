@@ -1,0 +1,71 @@
+body {
+    background-color: darkolivegreen;
+    font-family: 'Arial', sans-serif;
+}
+
+.to_do_list {
+    text-align: center;
+    margin-top: 50px;
+}
+
+h1 {
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+button{
+    font-weight: bold;
+    padding: 10px 20px;
+    color:cadetblue;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+    margin-left: 10px;
+}
+
+.add_button {
+    background-color: green;
+    color: white;
+}
+
+.add_button:hover {
+    background-color: darkgreen;
+}
+
+.delete_button {
+    background-color: rgba(238, 37, 37, 0.774);
+    color: white;
+}
+
+.delete_button:hover {
+    background-color: darkred;
+}
+
+input[type='text'] {
+    font-size: 15px;
+    padding: 10px;
+    border: 1px solid cadetblue;
+}
+
+/* Padding 0 for ol removes ordering numbers */
+ol {
+    padding: 0;
+}
+
+li {
+    font-size: 15px;
+    padding: 15px;
+    margin-bottom: 10px;
+    background-color: seashell;
+    border: 1px solid cadetblue;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.text {
+    flex: 1;
+}
