@@ -9,6 +9,8 @@ import Update_Object_State from "./Update_Object_State/Update_Object_State.jsx";
 import Update_Array_State from "./Update_Array_State/Update_Array_State.jsx";
 import Update_List_Object from "./Update_List_Object/Update_List_Object.jsx";
 import To_Do_List from "./To_Do_List.jsx/To_Do_List.jsx";
+import Use_Effect from "./Use_Effect/Use_Effect.jsx";
+import Digital_Clock from "./Digital_Clock/Digital_Clock.jsx";
 
 export default function App() {
     // const fruits = [
@@ -43,7 +45,10 @@ export default function App() {
             {/* <Update_Object_State/> */}
             {/* <Update_Array_State/> */}
             {/* <Update_List_Object/> */}
-            <To_Do_List/>
+            {/* <To_Do_List/> */}
+            {/* <Use_Effect/> */}
+            <Digital_Clock/>
+
 
         </>
     );
