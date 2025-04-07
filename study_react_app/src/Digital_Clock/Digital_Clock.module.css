@@ -1,5 +1,5 @@
 body{
-    background-image: url(src/assets/clock_background.png);
+    background-image: url(../assets/clock_background.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;

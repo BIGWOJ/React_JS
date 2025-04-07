@@ -15,12 +15,15 @@ export default function Digital_Clock() {
     }, []);
 
     function format_time() {
+        // console.log(typeof(time));
+        // console.log(time.getHours());
+        // console.log(time.getMinutes());
         let hours = time.getHours();
         let minutes = time.getMinutes();
         let seconds = time.getSeconds();
         let meridiem = hours >= 12 ? 'PM' : 'AM';
 
-        // // Returning 12 when left site is 0 (Falsey) so OR operator is used
+        // // // Returning 12 when left site is 0 (Falsey) so OR operator is used
         hours = hours % 12 || 12;
 
         return `${add_zero(hours)}:${add_zero(minutes)}:${add_zero(seconds)} ${meridiem}`;

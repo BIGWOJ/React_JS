@@ -11,6 +11,10 @@ import Update_List_Object from "./Update_List_Object/Update_List_Object.jsx";
 import To_Do_List from "./To_Do_List.jsx/To_Do_List.jsx";
 import Use_Effect from "./Use_Effect/Use_Effect.jsx";
 import Digital_Clock from "./Digital_Clock/Digital_Clock.jsx";
+import Use_Context_1 from "./Use_Context/Use_Context_1.jsx";
+import Use_Ref from "./Use_Ref/Use_Ref.jsx";
+import Stopwatch from "./Stopwatch/Stopwatch.jsx";
+
 
 export default function App() {
     // const fruits = [
@@ -47,9 +51,10 @@ export default function App() {
             {/* <Update_List_Object/> */}
             {/* <To_Do_List/> */}
             {/* <Use_Effect/> */}
-            <Digital_Clock/>
-
-
+            {/* <Digital_Clock/> */}
+            {/* <Use_Context_1/> */}
+            {/* <Use_Ref/> */}
+            <Stopwatch/>
         </>
     );
 
